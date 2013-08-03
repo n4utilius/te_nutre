@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Te nutre </title>
+
+	<link rel="stylesheet"  href="css/themes/default/jquery.mobile-1.3.2.min.css">
+	<link rel="stylesheet" href="_assets/css/jqm-demos.css">
+	<link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+	<script src="js/jquery.js"></script>
+	<script src="_assets/js/index.js"></script>
+	<script src="js/jquery.mobile-1.3.2.min.js"></script>
+	<script src="js/data.json" type="text/javascript" ></script>
+</head>
+<body>
+	<!--div id="splash_view" data-role="page" class="jqm-demos jqm-demos-home view">
+		<div data-role="header" class="jqm-header" >
+			<img src="img/logo.png" alt="te nutre">
+			<h1 class="jqm-logo"> Te nutre </h1>
+			
+		<div data-role="footer" class="jqm-footer">
+			<p>Copyright 2013 Alpura</p>
+		</div>
+
+	</div-->
+	<div id="instructions_view" data-role="page" class="jqm-demos jqm-demos-home view">
+		<div data-role="header" class="jqm-header" >
+			<img src="img/logo.png" alt="te nutre" width="30%" style="float:left"> 
+			<h1>Te nutre</h1> <br> <br> 
+		</div>
+			<ul>
+				<li> Introduce tus datos para saber tu consumo calórico recomendado</li>
+				<li> Recibe un catálogo de recetas por dia la semana deacuerdo a tus necesidades</li>
+				<li> Disfruta de los beneficios de una dieta balanceada ;)</li>
+				<li> <a href="#form_view" data-icon="plus" data-transition="slideup" data-role="button"> siguiente >> </a></li>
+			</ul>
+
+		<div data-role="footer" class="jqm-footer">
+			<p>Copyright 2013 Alpura</p>
+		</div><!-- /jqm-footer -->
+
+	</div><!-- /page -->
+
+	<div id="form_view" data-role="page" class="jqm-demos jqm-demos-home view">
+		<div data-role="header" class="jqm-header" >
+			<!--img src="img/logo.png" alt="te nutre" width="30%" style="float:left"--> 
+			<h1> Te nutre </h1> 
+		</div>
+			<small>Introduce tus datos para <br> determinar tu consumo de calorias</small>
+			<form>
+				<div data-role="fieldcontain">
+				  <label for="name">Nombre:</label>
+				  <input type="text" name="name" id="name" value="" />
+				</div>	
+
+				<div data-role="fieldcontain">
+				  <label for="name">Edad:</label>
+				  <input type="text" name="name" id="name" value="" />
+				</div>	
+
+				<div data-role="fieldcontain">
+				  <label for="name">Sexo:</label>
+				  <input type="text" name="name" id="name" value="" />
+				</div>	
+
+				<div data-role="fieldcontain">
+				  <label for="name">Peso:</label>
+				  <input type="text" name="name" id="name" value="" />
+				</div>	
+				<input type="submit" value="Enviar" />
+			</form>
+
+				<a href="#calorias_view" data-icon="plus" data-transition="slideup" 
+				   data-role="button"> ¿Cuanto debo de consumir? </a>
+
+		<div data-role="footer" class="jqm-footer">
+			<p>Copyright 2013 Alpura</p>
+		</div><!-- /jqm-footer -->
+
+	</div><!-- /page -->
+
+	<div id="calorias_view" data-role="page" class="jqm-demos jqm-demos-home view">
+		<div data-role="header" class="jqm-header" >
+			<!--img src="img/logo.png" alt="te nutre" width="30%" style="float:left"--> 
+			<h1> Te nutre </h1> 
+		</div>
+			<form>
+				<div data-role="fieldcontain">
+					<h2>Tu consumo calórico ideal es de</h2>
+					<h1 id="calorias"> </h1>
+					<a href="#dietaSemanal_view" data-icon="plus" data-transition="slideup" 
+					   data-role="button"> ¿Cómo lo logro? </a>
+				</div>	
+
+			</form>
+
+		<div data-role="footer" class="jqm-footer">
+			<p>Copyright 2013 Alpura</p>
+		</div><!-- /jqm-footer -->
+
+	</div><!-- /page -->
+
+
+	<div id="dietaSemana_view" data-role="page" class="jqm-demos jqm-demos-home view">
+		<div data-role="header" class="jqm-header" >
+			<!--img src="img/logo.png" alt="te nutre" width="30%" style="float:left"--> 
+			<h1> Te nutre </h1> 
+		</div>
+			<form>
+				<div data-role="fieldcontain">
+					<h2>Tu consumo calórico ideal es de</h2>
+					<h1 id="calorias"> </h1>
+					<a href="#dietaSemanal_view" data-icon="plus" data-transition="slideup" 
+					   data-role="button"> ¿Cómo lo logro? </a>
+				</div>	
+
+			</form>
+
+		<div data-role="footer" class="jqm-footer">
+			<p>Copyright 2013 Alpura</p>
+		</div><!-- /jqm-footer -->
+		<script type="text/javascript">
+			$(document).ready(function(){
+				//alert( dietas[0].label + "")
+				var app = {};
+				app.controllers = {};
+				app.model = {};
+				app.model.dietas = dietas;
+				
+				app.controllers.determina_calorias = function(peso, edad, sexo){
+					if (sexo = "Masculino"){
+
+					}else{
+
+					}
+				}
+
+				app.controllers.determina_dieta = function(){
+										
+				}
+			});
+		</script>
+	</div><!-- /page -->
+
+
+	<div id="dietaDiaria_view" data-role="page" class="jqm-demos jqm-demos-home view">
+		<div data-role="header" class="jqm-header" >
+			<!--img src="img/logo.png" alt="te nutre" width="30%" style="float:left"--> 
+			<h1> Te nutre </h1> 
+		</div>
+			<form>
+				<div data-role="fieldcontain">
+					<h2>Tu consumo calórico ideal es de</h2>
+					<h1 id="calorias"> </h1>
+					<a href="#dietaSemanal_view" data-icon="plus" data-transition="slideup" 
+					   data-role="button"> ¿Cómo lo logro? </a>
+				</div>	
+
+			</form>
+
+		<div data-role="footer" class="jqm-footer">
+			<p>Copyright 2013 Alpura</p>
+		</div><!-- /jqm-footer -->
+
+	</div><!-- /page -->
+
+	<div id="menu_view" data-role="page" class="jqm-demos jqm-demos-home view">
+		<div data-role="header" class="jqm-header" >
+			<!--img src="img/logo.png" alt="te nutre" width="30%" style="float:left"--> 
+			<h1> Te nutre </h1> 
+		</div>
+			<form>
+				<div data-role="fieldcontain">
+					<h2>Tu consumo calórico ideal es de</h2>
+					<h1 id="calorias"> </h1>
+					<a href="#dietaSemanal_view" data-icon="plus" data-transition="slideup" 
+					   data-role="button"> ¿Cómo lo logro? </a>
+				</div>	
+
+			</form>
+
+		<div data-role="footer" class="jqm-footer">
+			<p>Copyright 2013 Alpura</p>
+		</div><!-- /jqm-footer -->
+
+	</div><!-- /page -->
+
+</body>
+<script type="text/javascript">
+	$(document).ready(function(){
+	});
+</script>
+</html>

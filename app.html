@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<!--meta name="viewport" content="width=device-width, initial-scale=1"-->
+	<title> Te nutre </title>
+
+	<link rel="stylesheet"  href="css/themes/default/jquery.mobile-1.3.2.min.css">
+	<link rel="stylesheet" href="_assets/css/jqm-demos.css">
+	<link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+	<script src="js/jquery.js"></script>
+	<script src="_assets/js/index.js"></script>
+	<script src="js/jquery.mobile-1.3.2.min.js"></script>
+</head>
+<body>
+	<div id="splash_view" data-role="page" class="jqm-demos jqm-demos-home view">
+
+		<div data-role="header" class="jqm-header" >
+			<img src="img/logo.png" alt="te nutre">
+			<h1 class="jqm-logo"> Te nutre </h1>
+			
+		<div data-role="footer" class="jqm-footer">
+			<p>Copyright 2013 Alpura</p>
+		</div><!-- /jqm-footer -->
+
+	</div><!-- /page -->
+
+	<div id="instructions_view" data-role="page" class="jqm-demos jqm-demos-home view">
+
+		<div data-role="header" class="jqm-header" >
+			<img src="img/logo.png" alt="te nutre">
+			<h1 class="jqm-logo"> hola k ase </h1>
+			
+		<div data-role="footer" class="jqm-footer">
+			<p>Copyright 2013 Alpura</p>
+		</div><!-- /jqm-footer -->
+
+	</div><!-- /page -->
+</body>
+<script type="text/javascript">
+	$(document).ready(function(){
+    	$("div#splash_view").fadeIn(2000, function(){
+    		$(this).fadeOut(1000)
+    	});
+	});
+</script>
+</html>

@@ -1,0 +1,2209 @@
+dietas = [
+            {
+                "label": "Dietas para Mujeres ",
+                "calorias": [
+                    {
+                        "label": "Sindrome Metabolico 1200 calorias",
+                        "opciones": [
+                            {
+                                "label": "Opcion 1",
+                                "receta": {
+                                    "desayuno": "Omelet de nopales \n\n 1 nopal cocido , cortado en cubitos \n\n ½ zanahoria cocida y partida en cubitos \n\n 2 claras de huevo \n\n 1 cdita de aceite de maíz \n\n 2 tortillas \n\n 1 taza de papaya picada en cubitos \n\n Café o té sin azúcar o edulcorante \n\n ",
+                                    "colacion_mat": "Jícama picada \n\n 1 taza de jícama \n\n limón y sal al gusto \n\n ",
+                                    "comida": "Pescado empapelado \n\n 80 g de filete de pescado \n\n Jitomate, calabaza y cebolla \n\n en rodajas empapelar con el pescado \n\n Sal y pimienta \n\n ½ taza de arroz rojo \n\n 1 tortilla de maíz \n\n ½ taza de alubias cocidas \n\n 1 manzana chica con cáscara \n\n Agua natural o de limón sin azúcar o con edulcorante \n\n ",
+                                    "colacion_ves": "Almendras \n\n 10 piezas de almendras",
+                                    "cena": "Fresas con yogurt y granola \n\n 1 taza de fresas rebanadas \n\n 1 taza de yogurt descremado natural \n\n 3 cdas de granola \n\n "
+                                }
+                            },
+                            {
+                                "label": "Opcion 2",
+                                "receta": {
+                                    "desayuno": "Sándwich de ensalada de atún \n\n 1/3 de lata de atún en agua \n\n ½ zanahoria cocida partida en cubitos \n\n ¼ de taza de chicharos cocidos \n\n 1 cda de mayonesa baja en grasa \n\n 2 rebanadas de pan integral \n\n 2 naranjas en gajos \n\n Café o té sin azúcar o edulcorante \n\n ",
+                                    "colacion_mat": "Apio con lechuga \n\n ½ taza de apio crudo \n\n 1 taza de lechuga partida en trozos \n\n ½ taza de pepino picado \n\n Limón y sal al gusto \n\n ",
+                                    "comida": "Fajitas de res \n\n 60 g de pulpa bola de res en fajitas \n\n Morrón, cebolla y champiñones rebanados \n\n 1 cdita de aceite vegetal \n\n ½ taza de frijoles \n\n 2 tortillas de maíz \n\n 1 taza de melón \n\n Agua de Jamaica sin azúcar o con edulcorante \n\n ",
+                                    "colacion_ves": "Cacahuates enchilados \n\n 2 cdas de cacahuates enchilados \n\n ",
+                                    "cena": "Avena con fruta \n\n 1/3 taza de avena \n\n ½ manzana chica \n\n 1 durazno \n\n 1 taza de leche descremada \n\n 3 nueces \n\n "
+                                }
+                            },
+                            {
+                                "label": "Opcion 3",
+                                "receta": {
+                                    "desayuno": "Tostadas de requesón \n\n 2 tortillas de maíz tostadas al comal \n\n 3 cds de requesón \n\n Pico de gallo (jitomate, cebolla, chile) \n\n 1/3 pza de aguacate \n\n 2 guayabas medianas \n\n Café o té sin azúcar o edulcorante \n\n ",
+                                    "colacion_mat": "Brócoli al vapor \n\n 1 taza de brócoli cocidos al vapor \n\n Rodajas de cebolla morada \n\n 1 cdita de vinagre \n\n ",
+                                    "comida": "Pechuga a la plancha \n\n 60 g de Pechuga de pollo \n\n Ensalada mixta de lechuga, \n\n jitomate, cebolla y 1 rebanadita de aguacate \n\n ½ taza de puré de papa sin grasa \n\n ½ taza de sopa de lentejas \n\n 1 tortilla de maíz \n\n 1 taza de sandía \n\n Agua de naranja sin azúcar o con edulcorante \n\n ",
+                                    "colacion_ves": "Nuez de la india \n\n 1 ½ cdas de nuez de la india",
+                                    "cena": "Postre de mamey \n\n 1 taza de yogurt descremado natural \n\n 1/3 de mamey \n\n 4 galletas maría \n\n "
+                                }
+                            },
+                            {
+                                "label": "Opcion 4",
+                                "receta": {
+                                    "desayuno": "Quesadillas de hongos con queso \n\n 2 tortillas de maíz \n\n 1 taza de hongos cocidos \n\n 30 g de queso Oaxaca \n\n 1 manzana mediana \n\n Café o té sin azúcar o edulcorante \n\n ",
+                                    "colacion_mat": "Ensalada tricolor \n\n ½ taza de betabel rallado \n\n ½ taza de pepino rallado \n\n ½ taza de zanahoria rallada \n\n ",
+                                    "comida": "Pollo al horno \n\n 60 g de pollo \n\n ½ taza de sopa de pasta \n\n 1 tortilla de maíz \n\n ½ taza de frijoles machacados sin grasa \n\n ½ taza de zanahoria con ejote al vapor \n\n 1 taza de piña \n\n Agua de pepino con limón sin azúcar \n\n o con edulcorante \n\n ",
+                                    "colacion_ves": "Pepitas \n\n 2 cdas de pepitas sin cáscara \n\n ",
+                                    "cena": "Cereal con leche \n\n ½ taza de hojuelas de maíz integral \n\n 1 taza de papaya \n\n 1 taza de leche descremada \n\n 2 cdas de avellanas \n\n "
+                                }
+                            },
+                            {
+                                "label": "Opcion 5",
+                                "receta": {
+                                    "desayuno": "Sincronizada \n\n 2 tortillas de maíz \n\n 15g de queso oaxaca \n\n Salsa de pico de gallo al gusto \n\n 1 pera pequeña \n\n Café o té sin azúcar \n\n o edulcorante \n\n ",
+                                    "colacion_mat": "Ensalada de nopales \n\n 1 taza de nopal cocido y picado, cebolla, perejil y jitomate picado \n\n ", 
+                                    "comida": "Sopa de verduras de consumo libre \n\n Pollo con verdolagas \n\n 60 g de pollo \n\n Verdolagas al gusto \n\n 2 tortillas de maíz \n\n ½ taza de frijoles de la olla \n\n 1 manzana chica \n\n Agua de piña sin azúcar o con edulcorante \n\n ",
+                                    "colacion_ves": "Semilla de girasol \n\n 1 ½ cdas de semillas de girasol \n\n ",
+                                    "cena": "Tostada de aguacate \n\n 1 tostada horneada \n\n ¼ pieza de aguacate mediano \n\n Licuado de mango \n\n 1 taza de leche descremada \n\n ½ mango manila \n\n "
+                                    
+                                }
+                            },
+                            {
+                                "label": "Opcion 6",
+                                "receta": {
+                                    "desayuno": "Huevos a la mexicana \n\n 2 claras de huevo \n\n 1 cdita de aceite \n\n Jitomate, chile y cebolla al gusto \n\n ½ pizca de sal \n\n 2 tortillas de maíz \n\n 1 toronja \n\n Café o té sin azúcar o edulcorante \n\n ",
+                                    "colacion_mat": "Berros con jitomate \n\n 1 taza de berro crudo \n\n ½ taza de jitomate picado \n\n Rodajas de cebolla \n\n Limón y sal al gusto \n\n ",
+                                    "comida": "½ taza de sopa de alubias \n\n Picadillo San Carlos \n\n 60 g de carne molida de res \n\n Marinar con un poco de axiote, cebolla, jitomate picados, chícharo y elote en grano \n\n 1 tortilla de maíz \n\n 2 guayabas \n\n Agua de naranja sin azúcar o con edulcorante \n\n ",
+                                    "colacion_ves": "Pistache tostado \n\n 20 piezas de pistache tostado con sal \n\n ",
+                                    "cena": "Esquites \n\n ½ taza de elote desgranado \n\n chile, sal y limón al gusto \n\n 1 manzana chica \n\n Café con leche \n\n 1 taza de leche descremada \n\n café al gusto \n\n "
+                                }
+                            },
+                            {
+                                "label": "Opcion 7",
+                                "receta": {
+                                    "desayuno": "Chilaquiles con queso \n\n 2 tostadas de maíz sin grasa \n\n Salsa de jitomate y cebolla sazonada \n\n 30g de queso panela \n\n 1 cdita de crema baja en grasa \n\n 2 guayabas pequeñas \n\n Café o té sin azúcar o edulcorante \n\n ",
+                                    "colacion_mat": "Ensalada de espinacas \n\n 1 taza de espinaca cruda picada \n\n 1 taza de germen de alfalfa \n\n 1 taza de lechuga en trozos \n\n 1 cdita de vinagre \n\n ",
+                                    "comida": "Caldo tlalpeño \n\n ½ taza de arroz \n\n ½ taza de garbanzo \n\n Acompañar con salsa mexicana \n\n Rollitos de pollo \n\n 60 g de pechuga de pollo \n\n Espinacas (envolver las espinacas \n\n con la pechuga formando rollitos \n\n y sujetar con palillos) \n\n 1 taza de papaya \n\n Agua de tamarindo sin azúcar o con edulcorante \n\n ",
+                                    "colacion_ves": "Cacahuate japonés \n\n 2 cdas de cacahuate japonés \n\n ",
+                                    "cena": "Licuado de plátano \n\n ½ pza de plátano tabasco \n\n 1 taza de leche descremada \n\n Edulcorante al gusto \n\n 10 pzas de galletas de animalitos \n\n "
+                                }
+                            }
+                        ],
+                        "recomendaciones": "Las carnes deben de ser magras (sin grasa visible) y cocinarse sin grasa, de preferencia a la plancha, cocidas o al horno. \n\n La cantidad de alimento (carne, arroz, frijoles, etc.) que se indica es peso cocido. \n\n Se recomienda consumir las frutas y las verduras crudas o poco cocidas y si es posible con cáscara. \n\nLas verduras crudas (lechuga, pepino, jitomate, rábano, espinaca, etc.) pueden consumirse sin restricción, o sea a libre demanda. También pueden consumirse entre comidas cuando se tenga hambre. \n\n Consumir por lo menos 2 litros de agua natural al día",
+                        "prohibiciones": "Bebidas: Alcohólicas, Refrescos y Jugos de frutas envasados \n\n Lácteos: Leche y Yogurt enteros, Quesos maduros (que gratinan), Dulce de leche \n\n Carnes: Cerdo, cortes grasosos, chicharrón y vísceras, Embutidos (chorizo, longaniza, queso de puerco, tocino, salchicha, etc.), Cordero, Borrego, Res: Hamburguesas compradas, cortes grasosos T – Bone, New York, etc. \n\n Cereales y Harinas: Pan dulce, Harinas, Postres, Cereal comercial endulzado, Galletas con relleno, Hot Cakes con grasa, Tamal \n\n Frutas: Frutas secas, cristalizadas y en almíbar \n\n Condimentos y aderezos: Mayonesa, Salsa Catsup, Mil islas – Aurora, etc. \n\n Dulces: Mermeladas, Dulces, Golosinas, Helados, Chocolate, Jarabes concentrados para preparara agua \n\n Postres: Pasteles, Pastelillos, Pay, Ate, Nieve \n\n Grasas: Manteca de cerdo, Mantequilla, Crema, Queso crema, Crema de Cacahuate, Coco rallado, Tocino"
+                    },
+                    {
+                        "label": "Sindrome Metabolico 1400 calorias ",
+                        "opciones": [
+                            {
+                                "label": "Opcion 1",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 2",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 3",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 4",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 5",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 6",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 7",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": " Descargar en formato ",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "RegresarÂ ",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            }
+                        ],
+                        "recomendaciones": "Las carnes deben de ser magras (sin grasa visible) y cocinarse sin grasa, de preferencia a la plancha, cocidas o al horno. \n\n La cantidad de alimento (carne, arroz, frijoles, etc.) que se indica es peso cocido. \n\n Se recomienda consumir las frutas y las verduras crudas o poco cocidas y si es posible con cáscara. \n\nLas verduras crudas (lechuga, pepino, jitomate, rábano, espinaca, etc.) pueden consumirse sin restricción, o sea a libre demanda. También pueden consumirse entre comidas cuando se tenga hambre. \n\n Consumir por lo menos 2 litros de agua natural al día",
+                        "prohibiciones": "Bebidas: Alcohólicas, Refrescos y Jugos de frutas envasados \n\n Lácteos: Leche y Yogurt enteros, Quesos maduros (que gratinan), Dulce de leche \n\n Carnes: Cerdo, cortes grasosos, chicharrón y vísceras, Embutidos (chorizo, longaniza, queso de puerco, tocino, salchicha, etc.), Cordero, Borrego, Res: Hamburguesas compradas, cortes grasosos T – Bone, New York, etc. \n\n Cereales y Harinas: Pan dulce, Harinas, Postres, Cereal comercial endulzado, Galletas con relleno, Hot Cakes con grasa, Tamal \n\n Frutas: Frutas secas, cristalizadas y en almíbar \n\n Condimentos y aderezos: Mayonesa, Salsa Catsup, Mil islas – Aurora, etc. \n\n Dulces: Mermeladas, Dulces, Golosinas, Helados, Chocolate, Jarabes concentrados para preparara agua \n\n Postres: Pasteles, Pastelillos, Pay, Ate, Nieve \n\n Grasas: Manteca de cerdo, Mantequilla, Crema, Queso crema, Crema de Cacahuate, Coco rallado, Tocino"
+                    },
+                    {
+                        "label": "Sindrome Metabolico 1500 calorias",
+                        "opciones": [
+                            {
+                                "label": "Opcion 1",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 2",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 3",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 4",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 5",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 6",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 7",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": " Descargar en formato ",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "RegresarÂ ",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            }
+                        ],
+                        "recomendaciones": "Las carnes deben de ser magras (sin grasa visible) y cocinarse sin grasa, de preferencia a la plancha, cocidas o al horno. \n\n La cantidad de alimento (carne, arroz, frijoles, etc.) que se indica es peso cocido. \n\n Se recomienda consumir las frutas y las verduras crudas o poco cocidas y si es posible con cáscara. \n\nLas verduras crudas (lechuga, pepino, jitomate, rábano, espinaca, etc.) pueden consumirse sin restricción, o sea a libre demanda. También pueden consumirse entre comidas cuando se tenga hambre. \n\n Consumir por lo menos 2 litros de agua natural al día",
+                        "prohibiciones": "Bebidas: Alcohólicas, Refrescos y Jugos de frutas envasados \n\n Lácteos: Leche y Yogurt enteros, Quesos maduros (que gratinan), Dulce de leche \n\n Carnes: Cerdo, cortes grasosos, chicharrón y vísceras, Embutidos (chorizo, longaniza, queso de puerco, tocino, salchicha, etc.), Cordero, Borrego, Res: Hamburguesas compradas, cortes grasosos T – Bone, New York, etc. \n\n Cereales y Harinas: Pan dulce, Harinas, Postres, Cereal comercial endulzado, Galletas con relleno, Hot Cakes con grasa, Tamal \n\n Frutas: Frutas secas, cristalizadas y en almíbar \n\n Condimentos y aderezos: Mayonesa, Salsa Catsup, Mil islas – Aurora, etc. \n\n Dulces: Mermeladas, Dulces, Golosinas, Helados, Chocolate, Jarabes concentrados para preparara agua \n\n Postres: Pasteles, Pastelillos, Pay, Ate, Nieve \n\n Grasas: Manteca de cerdo, Mantequilla, Crema, Queso crema, Crema de Cacahuate, Coco rallado, Tocino"
+                    },
+                    {
+                        "label": "Sindrome Metabolico 1600 calorias",
+                        "opciones": [
+                            {
+                                "label": "Opcion 1",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 2",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 3",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 4",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 5",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 6",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 7",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": " Descargar en formato ",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "RegresarÂ ",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            }
+                        ],
+                        "recomendaciones": "Las carnes deben de ser magras (sin grasa visible) y cocinarse sin grasa, de preferencia a la plancha, cocidas o al horno. \n\n La cantidad de alimento (carne, arroz, frijoles, etc.) que se indica es peso cocido. \n\n Se recomienda consumir las frutas y las verduras crudas o poco cocidas y si es posible con cáscara. \n\nLas verduras crudas (lechuga, pepino, jitomate, rábano, espinaca, etc.) pueden consumirse sin restricción, o sea a libre demanda. También pueden consumirse entre comidas cuando se tenga hambre. \n\n Consumir por lo menos 2 litros de agua natural al día",
+                        "prohibiciones": "Bebidas: Alcohólicas, Refrescos y Jugos de frutas envasados \n\n Lácteos: Leche y Yogurt enteros, Quesos maduros (que gratinan), Dulce de leche \n\n Carnes: Cerdo, cortes grasosos, chicharrón y vísceras, Embutidos (chorizo, longaniza, queso de puerco, tocino, salchicha, etc.), Cordero, Borrego, Res: Hamburguesas compradas, cortes grasosos T – Bone, New York, etc. \n\n Cereales y Harinas: Pan dulce, Harinas, Postres, Cereal comercial endulzado, Galletas con relleno, Hot Cakes con grasa, Tamal \n\n Frutas: Frutas secas, cristalizadas y en almíbar \n\n Condimentos y aderezos: Mayonesa, Salsa Catsup, Mil islas – Aurora, etc. \n\n Dulces: Mermeladas, Dulces, Golosinas, Helados, Chocolate, Jarabes concentrados para preparara agua \n\n Postres: Pasteles, Pastelillos, Pay, Ate, Nieve \n\n Grasas: Manteca de cerdo, Mantequilla, Crema, Queso crema, Crema de Cacahuate, Coco rallado, Tocino"
+                    },
+                    {
+                        "label": "Sindrome Metabolico 1700 caloriasÂ ",
+                        "opciones": [
+                            {
+                                "label": "Opcion 1",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 2",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 3",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 4",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 5",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 6",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 7",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": " Descargar en formato ",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "RegresarÂ ",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            }
+                        ],
+                        "recomendaciones": "Las carnes deben de ser magras (sin grasa visible) y cocinarse sin grasa, de preferencia a la plancha, cocidas o al horno. \n\n La cantidad de alimento (carne, arroz, frijoles, etc.) que se indica es peso cocido. \n\n Se recomienda consumir las frutas y las verduras crudas o poco cocidas y si es posible con cáscara. \n\nLas verduras crudas (lechuga, pepino, jitomate, rábano, espinaca, etc.) pueden consumirse sin restricción, o sea a libre demanda. También pueden consumirse entre comidas cuando se tenga hambre. \n\n Consumir por lo menos 2 litros de agua natural al día",
+                        "prohibiciones": "Bebidas: Alcohólicas, Refrescos y Jugos de frutas envasados \n\n Lácteos: Leche y Yogurt enteros, Quesos maduros (que gratinan), Dulce de leche \n\n Carnes: Cerdo, cortes grasosos, chicharrón y vísceras, Embutidos (chorizo, longaniza, queso de puerco, tocino, salchicha, etc.), Cordero, Borrego, Res: Hamburguesas compradas, cortes grasosos T – Bone, New York, etc. \n\n Cereales y Harinas: Pan dulce, Harinas, Postres, Cereal comercial endulzado, Galletas con relleno, Hot Cakes con grasa, Tamal \n\n Frutas: Frutas secas, cristalizadas y en almíbar \n\n Condimentos y aderezos: Mayonesa, Salsa Catsup, Mil islas – Aurora, etc. \n\n Dulces: Mermeladas, Dulces, Golosinas, Helados, Chocolate, Jarabes concentrados para preparara agua \n\n Postres: Pasteles, Pastelillos, Pay, Ate, Nieve \n\n Grasas: Manteca de cerdo, Mantequilla, Crema, Queso crema, Crema de Cacahuate, Coco rallado, Tocino"
+                    },
+                    {
+                        "label": "Sindrome Metabolico 1800 calorias",
+                        "opciones": [
+                            {
+                                "label": "Opcion 1",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 2",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 3",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 4",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 5",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 6",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 7",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": " Descargar en formato ",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "RegresarÂ ",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            }
+                        ],
+                        "recomendaciones": "Las carnes deben de ser magras (sin grasa visible) y cocinarse sin grasa, de preferencia a la plancha, cocidas o al horno. \n\n La cantidad de alimento (carne, arroz, frijoles, etc.) que se indica es peso cocido. \n\n Se recomienda consumir las frutas y las verduras crudas o poco cocidas y si es posible con cáscara. \n\nLas verduras crudas (lechuga, pepino, jitomate, rábano, espinaca, etc.) pueden consumirse sin restricción, o sea a libre demanda. También pueden consumirse entre comidas cuando se tenga hambre. \n\n Consumir por lo menos 2 litros de agua natural al día",
+                        "prohibiciones": "Bebidas: Alcohólicas, Refrescos y Jugos de frutas envasados \n\n Lácteos: Leche y Yogurt enteros, Quesos maduros (que gratinan), Dulce de leche \n\n Carnes: Cerdo, cortes grasosos, chicharrón y vísceras, Embutidos (chorizo, longaniza, queso de puerco, tocino, salchicha, etc.), Cordero, Borrego, Res: Hamburguesas compradas, cortes grasosos T – Bone, New York, etc. \n\n Cereales y Harinas: Pan dulce, Harinas, Postres, Cereal comercial endulzado, Galletas con relleno, Hot Cakes con grasa, Tamal \n\n Frutas: Frutas secas, cristalizadas y en almíbar \n\n Condimentos y aderezos: Mayonesa, Salsa Catsup, Mil islas – Aurora, etc. \n\n Dulces: Mermeladas, Dulces, Golosinas, Helados, Chocolate, Jarabes concentrados para preparara agua \n\n Postres: Pasteles, Pastelillos, Pay, Ate, Nieve \n\n Grasas: Manteca de cerdo, Mantequilla, Crema, Queso crema, Crema de Cacahuate, Coco rallado, Tocino"
+                    },
+                    {
+                        "label": "Sindrome Metabolico 1900 caloriasÂ ",
+                        "opciones": [
+                            {
+                                "label": "Opcion 1",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 2",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 3",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 4",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 5",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 6",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 7",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": " Descargar en formato ",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "RegresarÂ ",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            }
+                        ],
+                        "recomendaciones": "Las carnes deben de ser magras (sin grasa visible) y cocinarse sin grasa, de preferencia a la plancha, cocidas o al horno. \n\n La cantidad de alimento (carne, arroz, frijoles, etc.) que se indica es peso cocido. \n\n Se recomienda consumir las frutas y las verduras crudas o poco cocidas y si es posible con cáscara. \n\nLas verduras crudas (lechuga, pepino, jitomate, rábano, espinaca, etc.) pueden consumirse sin restricción, o sea a libre demanda. También pueden consumirse entre comidas cuando se tenga hambre. \n\n Consumir por lo menos 2 litros de agua natural al día",
+                        "prohibiciones": "Bebidas: Alcohólicas, Refrescos y Jugos de frutas envasados \n\n Lácteos: Leche y Yogurt enteros, Quesos maduros (que gratinan), Dulce de leche \n\n Carnes: Cerdo, cortes grasosos, chicharrón y vísceras, Embutidos (chorizo, longaniza, queso de puerco, tocino, salchicha, etc.), Cordero, Borrego, Res: Hamburguesas compradas, cortes grasosos T – Bone, New York, etc. \n\n Cereales y Harinas: Pan dulce, Harinas, Postres, Cereal comercial endulzado, Galletas con relleno, Hot Cakes con grasa, Tamal \n\n Frutas: Frutas secas, cristalizadas y en almíbar \n\n Condimentos y aderezos: Mayonesa, Salsa Catsup, Mil islas – Aurora, etc. \n\n Dulces: Mermeladas, Dulces, Golosinas, Helados, Chocolate, Jarabes concentrados para preparara agua \n\n Postres: Pasteles, Pastelillos, Pay, Ate, Nieve \n\n Grasas: Manteca de cerdo, Mantequilla, Crema, Queso crema, Crema de Cacahuate, Coco rallado, Tocino"
+                    },
+                    {
+                        "label": "Sindrome Metabolico 2000 calorias",
+                        "opciones": [
+                            {
+                                "label": "Opcion 1",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 2",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 3",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 4",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 5",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 6",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 7",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": " Descargar en formato ",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "RegresarÂ ",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            }
+                        ],
+                        "recomendaciones": "Las carnes deben de ser magras (sin grasa visible) y cocinarse sin grasa, de preferencia a la plancha, cocidas o al horno. \n\n La cantidad de alimento (carne, arroz, frijoles, etc.) que se indica es peso cocido. \n\n Se recomienda consumir las frutas y las verduras crudas o poco cocidas y si es posible con cáscara. \n\nLas verduras crudas (lechuga, pepino, jitomate, rábano, espinaca, etc.) pueden consumirse sin restricción, o sea a libre demanda. También pueden consumirse entre comidas cuando se tenga hambre. \n\n Consumir por lo menos 2 litros de agua natural al día",
+                        "prohibiciones": "Bebidas: Alcohólicas, Refrescos y Jugos de frutas envasados \n\n Lácteos: Leche y Yogurt enteros, Quesos maduros (que gratinan), Dulce de leche \n\n Carnes: Cerdo, cortes grasosos, chicharrón y vísceras, Embutidos (chorizo, longaniza, queso de puerco, tocino, salchicha, etc.), Cordero, Borrego, Res: Hamburguesas compradas, cortes grasosos T – Bone, New York, etc. \n\n Cereales y Harinas: Pan dulce, Harinas, Postres, Cereal comercial endulzado, Galletas con relleno, Hot Cakes con grasa, Tamal \n\n Frutas: Frutas secas, cristalizadas y en almíbar \n\n Condimentos y aderezos: Mayonesa, Salsa Catsup, Mil islas – Aurora, etc. \n\n Dulces: Mermeladas, Dulces, Golosinas, Helados, Chocolate, Jarabes concentrados para preparara agua \n\n Postres: Pasteles, Pastelillos, Pay, Ate, Nieve \n\n Grasas: Manteca de cerdo, Mantequilla, Crema, Queso crema, Crema de Cacahuate, Coco rallado, Tocino"
+                    }
+                ]
+            },
+            {
+                "label": "Dietas para Hombres",
+                "calorias": [
+                    {
+                        "label": "Sindrome Metabolico 1300 calorias",
+                        "opciones": [
+                            {
+                                "label": "Opcion 1",
+                                "receta": {
+                                    "desayuno": "Sincronizada \n\n 2 tortillas de maíz \n\n 15g de queso oaxaca \n\n Salsa de pico de gallo al gusto \n\n 1 pera pequeña \n\n Café o té sin azúcar o edulcorante \n\n ",
+                                    "colacion_mat": "Ensalada de nopales \n\n 1 taza de nopal cocido y picado \n\n Cebolla, perejil y jitomate picado \n\n 1 tortilla de maíz \n\n ",
+                                    "comida": "1 taza de sopa de verduras \n\n Pollo con verdolagaso60 g de pollo \n\n Verdolagas al gusto \n\n 2 tortillas de maíz \n\n ½ taza de frijoles de la olla \n\n 1 manzana chica \n\n Agua de piña sin azúcar o con edulcorante \n\n ",
+                                    "colacion_ves": "Semilla de girasol \n\n 1 ½ cdas de semillas de girasol \n\n ",
+                                    "cena": "Tostadas de jocoque \n\n 2 tostadas horneadas \n\n ¾ taza de jocoque \n\n Melón picado \n\n 1 taza de melón picado \n\n "
+                                }
+                            },
+                            {
+                                "label": "Opcion 2",
+                                "receta": {
+                                    "desayuno": "Sándwich de ensalada de atún \n\n 1/3 de lata de atún en agua \n\n ½ zanahoria cocida partida en cubitos \n\n ¼ de taza de chicharos cocidos \n\n 1 cda de mayonesa baja en grasa \n\n 2 rebanadas de pan integral \n\n 2 naranjas en gajos \n\n Café o té sin azúcar o edulcorante \n\n ",
+                                    "colacion_mat": "Apio con lechuga \n\n ½ taza de apio crudo \n\n 1 taza de lechuga partida en trozos \n\n ½ taza de pepino picado \n\n Limón y sal al gusto \n\n 3 galletas habaneras \n\n ",
+                                    "comida": "Fajitas de res \n\n 60 g de pulpa bola de res en fajitas \n\n Morrón, cebolla y champiñones rebanados \n\n 1 cdita de aceite vegetal \n\n ½ taza de frijoles \n\n 2 tortillas de maíz \n\n 1 taza de melón \n\n Agua de Jamaica sin azúcar o con edulcorante \n\n ",
+                                    "colacion_ves": "Cacahuates enchilados \n\n 2 cdas de cacahuates enchilados \n\n ",
+                                    "cena": "Avena con fruta \n\n 1/3 taza de avena \n\n ½ manzana chica \n\n 1 durazno \n\n 1 taza de leche descremada \n\n "
+                                }
+                            },
+                            {
+                                "label": "Opcion 3",
+                                "receta": {
+                                    "desayuno": "Tostadas de requesón \n\n 2 tortillas de maíz tostadas al comal \n\n 3 cds de requesón \n\n Pico de gallo (jitomate, cebolla, chile) \n\n 1/3 pza de aguacate \n\n 2 guayabas medianas \n\n Café o té sin azúcar o edulcorante \n\n ",
+                                    "colacion_mat": "Brócoli al vapor \n\n 1 taza de brócoli cocidos al vapor \n\n Rodajas de cebolla morada \n\n 1/3 taza de granos de elote \n\n 1 cdita de vinagre \n\n ",
+                                    "comida": "½ taza de sopa de lentejas \n\n 1 tortilla de maíz \n\n Pechuga a la plancha \n\n 60 g de Pechuga de pollo \n\n Ensalada mixta de lechuga, jitomate, cebolla \n\n y 1 rebanadita de aguacate \n\n ½ taza de puré de papa sin grasa \n\n 1 taza de sandía \n\n Agua de naranja sin \n\n azúcar o con edulcorante \n\n ",
+                                    "colacion_ves": "Nuez de la india \n\n 1 ½ cdas de nuez de la india \n\n ",
+                                    "cena": "Postre de mamey \n\n 1 taza de yogurt descremado natural \n\n 1/3 de mamey \n\n 5 galletas maría \n\n "
+                                }
+                            },
+                            {
+                                "label": "Opcion 4",
+                                "receta": {
+                                    "desayuno": "Quesadillas de hongos con queso \n\n 2 tortillas de maíz \n\n 1 taza de hongos cocidos \n\n 30 g de queso Oaxaca \n\n 1 manzana mediana \n\n Café o té sin azúcar o edulcorante \n\n ",
+                                    "colacion_mat": "Ensalada tricolor \n\n ½ taza de betabel rallado \n\n ½ taza de pepino rallado \n\n ½ taza de zanahoria rallada \n\n 5 galletas de animalitos \n\n ",
+                                    "comida": "½ taza de sopa de pasta \n\n Pollo al horno \n\n 60 g de pollo \n\n Ensalada mixta de lechuga, jitomate1 tortilla de maíz \n\n ½ taza de frijoles \n\n ½ taza de zanahoria con ejote al vapor \n\n 1 taza de piña \n\n Agua de pepino con limón sin azúcar \n\n o con edulcorante  \n\n ",
+                                    "colacion_ves": "Pepitas \n\n 2 cdas de pepitas sin cáscara",
+                                    "cena": "Cereal con leche \n\n ½ taza de hojuelas de maíz integral \n\n 1 taza de papaya \n\n 1 taza de leche descremada \n\n "
+                                }
+                            },
+                            {
+                                "label": "Opcion 5",
+                                "receta": {
+                                    "desayuno": "Sincronizada \n\n 2 tortillas de maíz \n\n 15g de queso oaxaca \n\n Salsa de pico de gallo al gusto \n\n 1 pera pequeña \n\n Café o té sin azúcar \n\n o edulcorante \n\n ",
+                                    "colacion_mat": "Ensalada de nopales \n\n 1 taza de nopal cocido y picado \n\n Cebolla, perejil y jitomate picado \n\n 1 tortilla de maíz \n\n ",
+                                    "comida": "1 taza de sopa de verduras \n\n Pollo con verdolagas \n\n 60 g de pollo \n\n Verdolagas al gusto \n\n 2 tortillas de maíz \n\n ½ taza de frijoles de la olla \n\n 1 manzana chica \n\n Agua de piña sin azúcar \n\n o con edulcorantee  \n\n ",
+                                    "colacion_ves": "Semilla de girasol \n\n 1 ½ cdas de semillas de giraso \n\n ",
+                                    "cena": "Tostadas de jocoque \n\n 2 tostadas horneadas \n\n ¾ taza de jocoque \n\n Melón picado \n\n 1 taza de melón picado \n\n "
+                                }
+                            },
+                            {
+                                "label": "Opcion 6",
+                                "receta": {
+                                    "desayuno": "Chilaquiles con queso \n\n 2 tostadas de maíz sin grasa \n\n Salsa de jitomate y cebolla sazonada \n\n 30g de queso panela \n\n 1 cdita de crema baja en grasa \n\n 2 guayabas pequeñas \n\n - Café o té sin azúcar o edulcorante \n\n ",
+                                    "colacion_mat": "Ensalada de espinacas \n\n 1 taza de espinaca cruda picada \n\n 1 taza de germen de alfalfa \n\n 1 taza de lechuga en trozos \n\n 1 cdita de vinagre \n\n 3 tazas de palomitas naturales \n\n ",
+                                    "comida": "Caldo tlalpeño \n\n ½ taza de arroz \n\n ½ taza de garbanzo \n\n Acompañar con salsa mexicana \n\n Rollitos de pollo \n\n 2 guayabase  \n\n 60 g de pechuga de pollo \n\n Espinacas (envolver las espinacas \n\n con la pechuga formando rollitos \n\n y sujetar con palillos) \n\n 1 taza de papaya \n\n Agua de tamarindo sin azúcar o con edulcorante \n\n ",
+                                    "colacion_ves": "Cacahuate japonés \n\n 2 cdas de cacahuate japonés \n\n ",
+                                    "cena": "Licuado de plátano \n\n ½ pza de plátano tabasco \n\n 1 taza de leche descremada \n\n Edulcorante al gusto \n\n 10 pzas de galletas de animalitos \n\n"
+                                }
+                            },
+                            {
+                                "label": "Opcion 7",
+                                "receta": {
+                                    "desayuno": "Huevos a la mexicana \n\n 2 claras de huevo \n\n 1 cdita de aceite \n\n Jitomate, chile y cebolla al gusto \n\n ½ pizca de sal \n\n 2 tortillas de maíz \n\n 1 toronja \n\n Café o té sin azúcar o edulcorante \n\n ",
+                                    "colacion_mat": "Berros con jitomate \n\n 1 taza de berro crudo \n\n ½ taza de jitomate picado \n\n Rodajas de cebolla \n\n Limón y sal al gusto \n\n 3 galletas saladas \n\n ",
+                                    "comida": "½ taza de sopa de alubias \n\n Picadillo San Carlos \n\n 60 g de carne molida de res \n\n Marinar con un poco de axiote \n\n Cebolla, jitomate picados \n\n Chícharo y elote en grano \n\n 1 tortilla de maíz \n\n 2 guayabase  \n\n Agua de naranja sin azúcar o con edulcorante \n\n ",
+                                    "colacion_ves": "Pistache tostado \n\n 20 piezas de pistache tostado con sal \n\n ",
+                                    "cena": "Esquites \n\n ½ taza de elote desgranado \n\n chile, sal y limón al gusto \n\n 1 manzana chica \n\n -Café con leche \n\n 1 taza de leche descremada \n\n café al gusto \n\n "
+                                }
+                            }
+                        ],
+                        "recomendaciones": "Las carnes deben de ser magras (sin grasa visible) y cocinarse sin grasa, de preferencia a la plancha, cocidas o al horno. \n\n La cantidad de alimento (carne, arroz, frijoles, etc.) que se indica es peso cocido. \n\n Se recomienda consumir las frutas y las verduras crudas o poco cocidas y si es posible con cáscara. \n\nLas verduras crudas (lechuga, pepino, jitomate, rábano, espinaca, etc.) pueden consumirse sin restricción, o sea a libre demanda. También pueden consumirse entre comidas cuando se tenga hambre. \n\n Consumir por lo menos 2 litros de agua natural al día",
+                        "prohibiciones": "Bebidas: Alcoholicas, Refrescos y Jugos de frutas envasados  \n\n Lacteos: Leche y Yogurt enteros, Quesos maduros (que gratinan), Dulce de leche  \n\n Carnes: Cerdo, cortes grasosos, chicharron y visceras, Embutidos (chorizo, longaniza, queso de puerco, tocino, salchicha, etc.), Cordero, Borrego, Res: Hamburguesas compradas, cortes grasosos, T-Bone, New York, etc. \n\n Cereales y Harinas: Pan dulce, Harinas, Postres,         Cereal comercial endulzado, Galletas con relleno,         Hot Cakes con grasa, Tamal\r\nFrutas: Frutas secas, cristalizadas y en almibar  \n\n  Condimentos y aderezos: Mayonesa, Salsa Catsup, Mil islas-Aurora, etc.\n\n Dulces: Mermeladas, Dulces, Golosinas, Helados, Chocolate, Jarabes concentrados para preparara agua \n\n  Postres: Pasteles, Pastelillos, Pay, Ate, Nieve  \n\n Grasas: Manteca de cerdo, Mantequilla, Crema, Queso crema, Crema de Cacahuate, Coco rallado"
+                    },
+                    {
+                        "label": "Sindrome Metabolico 1500 calorias",
+                        "opciones": [
+                            {
+                                "label": "Opcion 1",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 2",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 3",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 4",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 5",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 6",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 7",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": " Descargar en formato ",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "RegresarÂ ",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            }
+                        ],
+                        "recomendaciones": "Las carnes deben de ser magras (sin grasa visible) y cocinarse sin grasa, de preferencia a la plancha, cocidas o al horno. \n\n La cantidad de alimento (carne, arroz, frijoles, etc.) que se indica es peso cocido. \n\n Se recomienda consumir las frutas y las verduras crudas o poco cocidas y si es posible con cáscara. \n\nLas verduras crudas (lechuga, pepino, jitomate, rábano, espinaca, etc.) pueden consumirse sin restricción, o sea a libre demanda. También pueden consumirse entre comidas cuando se tenga hambre. \n\n Consumir por lo menos 2 litros de agua natural al día",
+                        "prohibiciones": "Bebidas: Alcoholicas, Refrescos y Jugos de frutas envasados  \n\n Lacteos: Leche y Yogurt enteros, Quesos maduros (que gratinan), Dulce de leche  \n\n Carnes: Cerdo, cortes grasosos, chicharron y visceras, Embutidos (chorizo, longaniza, queso de puerco, tocino, salchicha, etc.), Cordero, Borrego, Res: Hamburguesas compradas, cortes grasosos, T-Bone, New York, etc. \n\n Cereales y Harinas: Pan dulce, Harinas, Postres,         Cereal comercial endulzado, Galletas con relleno,         Hot Cakes con grasa, Tamal\r\nFrutas: Frutas secas, cristalizadas y en almibar  \n\n  Condimentos y aderezos: Mayonesa, Salsa Catsup, Mil islas-Aurora, etc.\n\n Dulces: Mermeladas, Dulces, Golosinas, Helados, Chocolate, Jarabes concentrados para preparara agua \n\n  Postres: Pasteles, Pastelillos, Pay, Ate, Nieve  \n\n Grasas: Manteca de cerdo, Mantequilla, Crema, Queso crema, Crema de Cacahuate, Coco rallado"
+                    },
+                    {
+                        "label": "Sindrome Metabolico 1700 calorias",
+                        "opciones": [
+                            {
+                                "label": "Opcion 1",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 2",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 3",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 4",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 5",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 6",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 7",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": " Descargar en formato ",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "RegresarÂ ",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            }
+                        ],
+                        "recomendaciones": "Las carnes deben de ser magras (sin grasa visible) y cocinarse sin grasa, de preferencia a la plancha, cocidas o al horno. \n\n La cantidad de alimento (carne, arroz, frijoles, etc.) que se indica es peso cocido. \n\n Se recomienda consumir las frutas y las verduras crudas o poco cocidas y si es posible con cáscara. \n\nLas verduras crudas (lechuga, pepino, jitomate, rábano, espinaca, etc.) pueden consumirse sin restricción, o sea a libre demanda. También pueden consumirse entre comidas cuando se tenga hambre. \n\n Consumir por lo menos 2 litros de agua natural al día",
+                        "prohibiciones": "Bebidas: Alcoholicas, Refrescos y Jugos de frutas envasados  \n\n Lacteos: Leche y Yogurt enteros, Quesos maduros (que gratinan), Dulce de leche  \n\n Carnes: Cerdo, cortes grasosos, chicharron y visceras, Embutidos (chorizo, longaniza, queso de puerco, tocino, salchicha, etc.), Cordero, Borrego, Res: Hamburguesas compradas, cortes grasosos, T-Bone, New York, etc. \n\n Cereales y Harinas: Pan dulce, Harinas, Postres,         Cereal comercial endulzado, Galletas con relleno,         Hot Cakes con grasa, Tamal\r\nFrutas: Frutas secas, cristalizadas y en almibar  \n\n  Condimentos y aderezos: Mayonesa, Salsa Catsup, Mil islas-Aurora, etc.\n\n Dulces: Mermeladas, Dulces, Golosinas, Helados, Chocolate, Jarabes concentrados para preparara agua \n\n  Postres: Pasteles, Pastelillos, Pay, Ate, Nieve  \n\n Grasas: Manteca de cerdo, Mantequilla, Crema, Queso crema, Crema de Cacahuate, Coco rallado"
+                    },
+                    {
+                        "label": "Sindrome Metabolico 1900 calorias",
+                        "opciones": [
+                            {
+                                "label": "Opcion 1",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 2",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 3",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 4",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 5",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 6",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 7",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": " Descargar en formato ",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "RegresarÂ ",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            }
+                        ],
+                        "recomendaciones": "Las carnes deben de ser magras (sin grasa visible) y cocinarse sin grasa, de preferencia a la plancha, cocidas o al horno. \n\n La cantidad de alimento (carne, arroz, frijoles, etc.) que se indica es peso cocido. \n\n Se recomienda consumir las frutas y las verduras crudas o poco cocidas y si es posible con cáscara. \n\nLas verduras crudas (lechuga, pepino, jitomate, rábano, espinaca, etc.) pueden consumirse sin restricción, o sea a libre demanda. También pueden consumirse entre comidas cuando se tenga hambre. \n\n Consumir por lo menos 2 litros de agua natural al día",
+                        "prohibiciones": "Bebidas: Alcoholicas, Refrescos y Jugos de frutas envasados  \n\n Lacteos: Leche y Yogurt enteros, Quesos maduros (que gratinan), Dulce de leche  \n\n Carnes: Cerdo, cortes grasosos, chicharron y visceras, Embutidos (chorizo, longaniza, queso de puerco, tocino, salchicha, etc.), Cordero, Borrego, Res: Hamburguesas compradas, cortes grasosos, T-Bone, New York, etc. \n\n Cereales y Harinas: Pan dulce, Harinas, Postres,         Cereal comercial endulzado, Galletas con relleno,         Hot Cakes con grasa, Tamal\r\nFrutas: Frutas secas, cristalizadas y en almibar  \n\n  Condimentos y aderezos: Mayonesa, Salsa Catsup, Mil islas-Aurora, etc.\n\n Dulces: Mermeladas, Dulces, Golosinas, Helados, Chocolate, Jarabes concentrados para preparara agua \n\n  Postres: Pasteles, Pastelillos, Pay, Ate, Nieve  \n\n Grasas: Manteca de cerdo, Mantequilla, Crema, Queso crema, Crema de Cacahuate, Coco rallado"
+                    },
+                    {
+                        "label": "Diabetes Mellitus 2100 calorias",
+                        "opciones": [
+                            {
+                                "label": "Opcion 1",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 2",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 3",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 4",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 5",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 6",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 7",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": " Descargar en formato ",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "RegresarÂ ",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            }
+                        ],
+                        "recomendaciones": "Las carnes deben de ser magras (sin grasa visible) y cocinarse sin grasa, de preferencia a la plancha, cocidas o al horno. \n\n La cantidad de alimento (carne, arroz, frijoles, etc.) que se indica es peso cocido. \n\n Se recomienda consumir las frutas y las verduras crudas o poco cocidas y si es posible con cáscara. \n\nLas verduras crudas (lechuga, pepino, jitomate, rábano, espinaca, etc.) pueden consumirse sin restricción, o sea a libre demanda. También pueden consumirse entre comidas cuando se tenga hambre. \n\n Consumir por lo menos 2 litros de agua natural al día",
+                        "prohibiciones": "Bebidas: Alcoholicas, Refrescos y Jugos de frutas envasados  \n\n Lacteos: Leche y Yogurt enteros, Quesos maduros (que gratinan), Dulce de leche  \n\n Carnes: Cerdo, cortes grasosos, chicharron y visceras, Embutidos (chorizo, longaniza, queso de puerco, tocino, salchicha, etc.), Cordero, Borrego, Res: Hamburguesas compradas, cortes grasosos, T-Bone, New York, etc. \n\n Cereales y Harinas: Pan dulce, Harinas, Postres,         Cereal comercial endulzado, Galletas con relleno,         Hot Cakes con grasa, Tamal\r\nFrutas: Frutas secas, cristalizadas y en almibar  \n\n  Condimentos y aderezos: Mayonesa, Salsa Catsup, Mil islas-Aurora, etc.\n\n Dulces: Mermeladas, Dulces, Golosinas, Helados, Chocolate, Jarabes concentrados para preparara agua \n\n  Postres: Pasteles, Pastelillos, Pay, Ate, Nieve  \n\n Grasas: Manteca de cerdo, Mantequilla, Crema, Queso crema, Crema de Cacahuate, Coco rallado"
+                    }
+                ]
+            },
+            {
+                "label": "Dietas bajas en sodio",
+                "calorias": [
+                    {
+                        "label": "1200 caloriasÂ ",
+                        "opciones": [
+                            {
+                                "label": "Opcion 1",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 2",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 3",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 4",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 5",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 6",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 7",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": " Descargar en formato ",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "RegresarÂ ",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            }
+                        ],
+                        "recomendaciones": "Las carnes deben de ser magras (sin grasa visible) y cocinarse sin grasa, de preferencia a la plancha, cocidas o al horno. \n\n La cantidad de alimento (carne, arroz, frijoles, etc.) que se indica es peso cocido. \n\n Se recomienda consumir las frutas y las verduras crudas o poco cocidas y si es posible con cáscara. \n\nLas verduras crudas (lechuga, pepino, jitomate, rábano, espinaca, etc.) pueden consumirse sin restricción, o sea a libre demanda. También pueden consumirse entre comidas cuando se tenga hambre. \n\n Consumir por lo menos 2 litros de agua natural al día",
+                        "prohibiciones": "Bebidas: Alcohólicas, Refrescos y Jugos de frutas envasados \n\n Lácteos: Leche y Yogurt enteros, Quesos maduros (que gratinan), Dulce de leche \n\n Carnes: Cerdo, cortes grasosos, chicharrón y vísceras, Embutidos (chorizo, longaniza, queso de puerco, tocino, salchicha, etc.), Cordero, Borrego, Res: Hamburguesas compradas, cortes grasosos T – Bone, New York, etc. \n\n Cereales y Harinas: Pan dulce, Harinas, Postres, Cereal comercial endulzado, Galletas con relleno, Hot Cakes con grasa, Tamal \n\n Frutas: Frutas secas, cristalizadas y en almíbar \n\n Condimentos y aderezos: Mayonesa, Salsa Catsup, Mil islas – Aurora, etc. \n\n Dulces: Mermeladas, Dulces, Golosinas, Helados, Chocolate, Jarabes concentrados para preparara agua \n\n Postres: Pasteles, Pastelillos, Pay, Ate, Nieve \n\n Grasas: Manteca de cerdo, Mantequilla, Crema, Queso crema, Crema de Cacahuate, Coco rallado, Tocino"
+                    },
+                    {
+                        "label": "1300 calorias",
+                        "opciones": [
+                            {
+                                "label": "Opcion 1",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 2",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 3",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 4",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 5",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 6",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 7",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": " Descargar en formato ",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "RegresarÂ ",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            }
+                        ],
+                        "recomendaciones": "Las carnes deben de ser magras (sin grasa visible) y cocinarse sin grasa, de preferencia a la plancha, cocidas o al horno. \n\n La cantidad de alimento (carne, arroz, frijoles, etc.) que se indica es peso cocido. \n\n Se recomienda consumir las frutas y las verduras crudas o poco cocidas y si es posible con cáscara. \n\nLas verduras crudas (lechuga, pepino, jitomate, rábano, espinaca, etc.) pueden consumirse sin restricción, o sea a libre demanda. También pueden consumirse entre comidas cuando se tenga hambre. \n\n Consumir por lo menos 2 litros de agua natural al día",
+                        "prohibiciones": "Bebidas: Alcohólicas, Refrescos y Jugos de frutas envasados \n\n Lácteos: Leche y Yogurt enteros, Quesos maduros (que gratinan), Dulce de leche \n\n Carnes: Cerdo, cortes grasosos, chicharrón y vísceras, Embutidos (chorizo, longaniza, queso de puerco, tocino, salchicha, etc.), Cordero, Borrego, Res: Hamburguesas compradas, cortes grasosos T – Bone, New York, etc. \n\n Cereales y Harinas: Pan dulce, Harinas, Postres, Cereal comercial endulzado, Galletas con relleno, Hot Cakes con grasa, Tamal \n\n Frutas: Frutas secas, cristalizadas y en almíbar \n\n Condimentos y aderezos: Mayonesa, Salsa Catsup, Mil islas – Aurora, etc. \n\n Dulces: Mermeladas, Dulces, Golosinas, Helados, Chocolate, Jarabes concentrados para preparara agua \n\n Postres: Pasteles, Pastelillos, Pay, Ate, Nieve \n\n Grasas: Manteca de cerdo, Mantequilla, Crema, Queso crema, Crema de Cacahuate, Coco rallado, Tocino"
+                    },
+                    {
+                        "label": "1400 calorias",
+                        "opciones": [
+                            {
+                                "label": "Opcion 1",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 2",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 3",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 4",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 5",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 6",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 7",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": " Descargar en formato ",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "RegresarÂ ",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            }
+                        ],
+                        "recomendaciones": "Las carnes deben de ser magras (sin grasa visible) y cocinarse sin grasa, de preferencia a la plancha, cocidas o al horno. \n\n La cantidad de alimento (carne, arroz, frijoles, etc.) que se indica es peso cocido. \n\n Se recomienda consumir las frutas y las verduras crudas o poco cocidas y si es posible con cáscara. \n\nLas verduras crudas (lechuga, pepino, jitomate, rábano, espinaca, etc.) pueden consumirse sin restricción, o sea a libre demanda. También pueden consumirse entre comidas cuando se tenga hambre. \n\n Consumir por lo menos 2 litros de agua natural al día",
+                        "prohibiciones": "Bebidas: Alcohólicas, Refrescos y Jugos de frutas envasados \n\n Lácteos: Leche y Yogurt enteros, Quesos maduros (que gratinan), Dulce de leche \n\n Carnes: Cerdo, cortes grasosos, chicharrón y vísceras, Embutidos (chorizo, longaniza, queso de puerco, tocino, salchicha, etc.), Cordero, Borrego, Res: Hamburguesas compradas, cortes grasosos T – Bone, New York, etc. \n\n Cereales y Harinas: Pan dulce, Harinas, Postres, Cereal comercial endulzado, Galletas con relleno, Hot Cakes con grasa, Tamal \n\n Frutas: Frutas secas, cristalizadas y en almíbar \n\n Condimentos y aderezos: Mayonesa, Salsa Catsup, Mil islas – Aurora, etc. \n\n Dulces: Mermeladas, Dulces, Golosinas, Helados, Chocolate, Jarabes concentrados para preparara agua \n\n Postres: Pasteles, Pastelillos, Pay, Ate, Nieve \n\n Grasas: Manteca de cerdo, Mantequilla, Crema, Queso crema, Crema de Cacahuate, Coco rallado, Tocino"
+                    },
+                    {
+                        "label": "1500 calorias",
+                        "opciones": [
+                            {
+                                "label": "Opcion 1",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 2",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 3",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 4",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 5",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 6",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 7",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": " Descargar en formato ",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "RegresarÂ ",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            }
+                        ],
+                        "recomendaciones": "Las carnes deben de ser magras (sin grasa visible) y cocinarse sin grasa, de preferencia a la plancha, cocidas o al horno. \n\n La cantidad de alimento (carne, arroz, frijoles, etc.) que se indica es peso cocido. \n\n Se recomienda consumir las frutas y las verduras crudas o poco cocidas y si es posible con cáscara. \n\nLas verduras crudas (lechuga, pepino, jitomate, rábano, espinaca, etc.) pueden consumirse sin restricción, o sea a libre demanda. También pueden consumirse entre comidas cuando se tenga hambre. \n\n Consumir por lo menos 2 litros de agua natural al día",
+                        "prohibiciones": "Bebidas: Alcohólicas, Refrescos y Jugos de frutas envasados \n\n Lácteos: Leche y Yogurt enteros, Quesos maduros (que gratinan), Dulce de leche \n\n Carnes: Cerdo, cortes grasosos, chicharrón y vísceras, Embutidos (chorizo, longaniza, queso de puerco, tocino, salchicha, etc.), Cordero, Borrego, Res: Hamburguesas compradas, cortes grasosos T – Bone, New York, etc. \n\n Cereales y Harinas: Pan dulce, Harinas, Postres, Cereal comercial endulzado, Galletas con relleno, Hot Cakes con grasa, Tamal \n\n Frutas: Frutas secas, cristalizadas y en almíbar \n\n Condimentos y aderezos: Mayonesa, Salsa Catsup, Mil islas – Aurora, etc. \n\n Dulces: Mermeladas, Dulces, Golosinas, Helados, Chocolate, Jarabes concentrados para preparara agua \n\n Postres: Pasteles, Pastelillos, Pay, Ate, Nieve \n\n Grasas: Manteca de cerdo, Mantequilla, Crema, Queso crema, Crema de Cacahuate, Coco rallado, Tocino"
+                    },
+                    {
+                        "label": "1600 calorias",
+                        "opciones": [
+                            {
+                                "label": "Opcion 1",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 2",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 3",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 4",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 5",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 6",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 7",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": " Descargar en formato ",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "RegresarÂ ",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            }
+                        ],
+                        "recomendaciones": "Las carnes deben de ser magras (sin grasa visible) y cocinarse sin grasa, de preferencia a la plancha, cocidas o al horno. \n\n La cantidad de alimento (carne, arroz, frijoles, etc.) que se indica es peso cocido. \n\n Se recomienda consumir las frutas y las verduras crudas o poco cocidas y si es posible con cáscara. \n\nLas verduras crudas (lechuga, pepino, jitomate, rábano, espinaca, etc.) pueden consumirse sin restricción, o sea a libre demanda. También pueden consumirse entre comidas cuando se tenga hambre. \n\n Consumir por lo menos 2 litros de agua natural al día",
+                        "prohibiciones": "Bebidas: Alcohólicas, Refrescos y Jugos de frutas envasados \n\n Lácteos: Leche y Yogurt enteros, Quesos maduros (que gratinan), Dulce de leche \n\n Carnes: Cerdo, cortes grasosos, chicharrón y vísceras, Embutidos (chorizo, longaniza, queso de puerco, tocino, salchicha, etc.), Cordero, Borrego, Res: Hamburguesas compradas, cortes grasosos T – Bone, New York, etc. \n\n Cereales y Harinas: Pan dulce, Harinas, Postres, Cereal comercial endulzado, Galletas con relleno, Hot Cakes con grasa, Tamal \n\n Frutas: Frutas secas, cristalizadas y en almíbar \n\n Condimentos y aderezos: Mayonesa, Salsa Catsup, Mil islas – Aurora, etc. \n\n Dulces: Mermeladas, Dulces, Golosinas, Helados, Chocolate, Jarabes concentrados para preparara agua \n\n Postres: Pasteles, Pastelillos, Pay, Ate, Nieve \n\n Grasas: Manteca de cerdo, Mantequilla, Crema, Queso crema, Crema de Cacahuate, Coco rallado, Tocino"
+                    },
+                    {
+                        "label": "1700 calorias",
+                        "opciones": [
+                            {
+                                "label": "Opcion 1",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 2",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 3",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 4",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 5",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 6",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 7",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": " Descargar en formato ",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "RegresarÂ ",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            }
+                        ],
+                        "recomendaciones": "Las carnes deben de ser magras (sin grasa visible) y cocinarse sin grasa, de preferencia a la plancha, cocidas o al horno. \n\n La cantidad de alimento (carne, arroz, frijoles, etc.) que se indica es peso cocido. \n\n Se recomienda consumir las frutas y las verduras crudas o poco cocidas y si es posible con cáscara. \n\nLas verduras crudas (lechuga, pepino, jitomate, rábano, espinaca, etc.) pueden consumirse sin restricción, o sea a libre demanda. También pueden consumirse entre comidas cuando se tenga hambre. \n\n Consumir por lo menos 2 litros de agua natural al día",
+                        "prohibiciones": "Bebidas: Alcohólicas, Refrescos y Jugos de frutas envasados \n\n Lácteos: Leche y Yogurt enteros, Quesos maduros (que gratinan), Dulce de leche \n\n Carnes: Cerdo, cortes grasosos, chicharrón y vísceras, Embutidos (chorizo, longaniza, queso de puerco, tocino, salchicha, etc.), Cordero, Borrego, Res: Hamburguesas compradas, cortes grasosos T – Bone, New York, etc. \n\n Cereales y Harinas: Pan dulce, Harinas, Postres, Cereal comercial endulzado, Galletas con relleno, Hot Cakes con grasa, Tamal \n\n Frutas: Frutas secas, cristalizadas y en almíbar \n\n Condimentos y aderezos: Mayonesa, Salsa Catsup, Mil islas – Aurora, etc. \n\n Dulces: Mermeladas, Dulces, Golosinas, Helados, Chocolate, Jarabes concentrados para preparara agua \n\n Postres: Pasteles, Pastelillos, Pay, Ate, Nieve \n\n Grasas: Manteca de cerdo, Mantequilla, Crema, Queso crema, Crema de Cacahuate, Coco rallado, Tocino"
+                    },
+                    {
+                        "label": "1800 calorias",
+                        "opciones": [
+                            {
+                                "label": "Opcion 1",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 2",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 3",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 4",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 5",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 6",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 7",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": " Descargar en formato ",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "RegresarÂ ",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            }
+                        ],
+                        "recomendaciones": "Las carnes deben de ser magras (sin grasa visible) y cocinarse sin grasa, de preferencia a la plancha, cocidas o al horno. \n\n La cantidad de alimento (carne, arroz, frijoles, etc.) que se indica es peso cocido. \n\n Se recomienda consumir las frutas y las verduras crudas o poco cocidas y si es posible con cáscara. \n\nLas verduras crudas (lechuga, pepino, jitomate, rábano, espinaca, etc.) pueden consumirse sin restricción, o sea a libre demanda. También pueden consumirse entre comidas cuando se tenga hambre. \n\n Consumir por lo menos 2 litros de agua natural al día",
+                        "prohibiciones": "Bebidas: Alcohólicas, Refrescos y Jugos de frutas envasados \n\n Lácteos: Leche y Yogurt enteros, Quesos maduros (que gratinan), Dulce de leche \n\n Carnes: Cerdo, cortes grasosos, chicharrón y vísceras, Embutidos (chorizo, longaniza, queso de puerco, tocino, salchicha, etc.), Cordero, Borrego, Res: Hamburguesas compradas, cortes grasosos T – Bone, New York, etc. \n\n Cereales y Harinas: Pan dulce, Harinas, Postres, Cereal comercial endulzado, Galletas con relleno, Hot Cakes con grasa, Tamal \n\n Frutas: Frutas secas, cristalizadas y en almíbar \n\n Condimentos y aderezos: Mayonesa, Salsa Catsup, Mil islas – Aurora, etc. \n\n Dulces: Mermeladas, Dulces, Golosinas, Helados, Chocolate, Jarabes concentrados para preparara agua \n\n Postres: Pasteles, Pastelillos, Pay, Ate, Nieve \n\n Grasas: Manteca de cerdo, Mantequilla, Crema, Queso crema, Crema de Cacahuate, Coco rallado, Tocino"
+                    },
+                    {
+                        "label": "1900 calorias",
+                        "opciones": [
+                            {
+                                "label": "Opcion 1",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 2",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 3",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 4",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 5",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 6",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 7",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": " Descargar en formato ",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "RegresarÂ ",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            }
+                        ],
+                        "recomendaciones": "Las carnes deben de ser magras (sin grasa visible) y cocinarse sin grasa, de preferencia a la plancha, cocidas o al horno. \n\n La cantidad de alimento (carne, arroz, frijoles, etc.) que se indica es peso cocido. \n\n Se recomienda consumir las frutas y las verduras crudas o poco cocidas y si es posible con cáscara. \n\nLas verduras crudas (lechuga, pepino, jitomate, rábano, espinaca, etc.) pueden consumirse sin restricción, o sea a libre demanda. También pueden consumirse entre comidas cuando se tenga hambre. \n\n Consumir por lo menos 2 litros de agua natural al día",
+                        "prohibiciones": "Bebidas: Alcohólicas, Refrescos y Jugos de frutas envasados \n\n Lácteos: Leche y Yogurt enteros, Quesos maduros (que gratinan), Dulce de leche \n\n Carnes: Cerdo, cortes grasosos, chicharrón y vísceras, Embutidos (chorizo, longaniza, queso de puerco, tocino, salchicha, etc.), Cordero, Borrego, Res: Hamburguesas compradas, cortes grasosos T – Bone, New York, etc. \n\n Cereales y Harinas: Pan dulce, Harinas, Postres, Cereal comercial endulzado, Galletas con relleno, Hot Cakes con grasa, Tamal \n\n Frutas: Frutas secas, cristalizadas y en almíbar \n\n Condimentos y aderezos: Mayonesa, Salsa Catsup, Mil islas – Aurora, etc. \n\n Dulces: Mermeladas, Dulces, Golosinas, Helados, Chocolate, Jarabes concentrados para preparara agua \n\n Postres: Pasteles, Pastelillos, Pay, Ate, Nieve \n\n Grasas: Manteca de cerdo, Mantequilla, Crema, Queso crema, Crema de Cacahuate, Coco rallado, Tocino"
+                    },
+                    {
+                        "label": "2000 calorias",
+                        "opciones": [
+                            {
+                                "label": "Opcion 1",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 2",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 3",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 4",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 5",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 6",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 7",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": " Descargar en formato ",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "RegresarÂ ",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            }
+                        ],
+                        "recomendaciones": "Las carnes deben de ser magras (sin grasa visible) y cocinarse sin grasa, de preferencia a la plancha, cocidas o al horno. \n\n La cantidad de alimento (carne, arroz, frijoles, etc.) que se indica es peso cocido. \n\n Se recomienda consumir las frutas y las verduras crudas o poco cocidas y si es posible con cáscara. \n\nLas verduras crudas (lechuga, pepino, jitomate, rábano, espinaca, etc.) pueden consumirse sin restricción, o sea a libre demanda. También pueden consumirse entre comidas cuando se tenga hambre. \n\n Consumir por lo menos 2 litros de agua natural al día",
+                        "prohibiciones": "Bebidas: Alcohólicas, Refrescos y Jugos de frutas envasados \n\n Lácteos: Leche y Yogurt enteros, Quesos maduros (que gratinan), Dulce de leche \n\n Carnes: Cerdo, cortes grasosos, chicharrón y vísceras, Embutidos (chorizo, longaniza, queso de puerco, tocino, salchicha, etc.), Cordero, Borrego, Res: Hamburguesas compradas, cortes grasosos T – Bone, New York, etc. \n\n Cereales y Harinas: Pan dulce, Harinas, Postres, Cereal comercial endulzado, Galletas con relleno, Hot Cakes con grasa, Tamal \n\n Frutas: Frutas secas, cristalizadas y en almíbar \n\n Condimentos y aderezos: Mayonesa, Salsa Catsup, Mil islas – Aurora, etc. \n\n Dulces: Mermeladas, Dulces, Golosinas, Helados, Chocolate, Jarabes concentrados para preparara agua \n\n Postres: Pasteles, Pastelillos, Pay, Ate, Nieve \n\n Grasas: Manteca de cerdo, Mantequilla, Crema, Queso crema, Crema de Cacahuate, Coco rallado, Tocino"
+                    },
+                    {
+                        "label": "2100 calorias",
+                        "opciones": [
+                            {
+                                "label": "Opcion 1",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 2",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 3",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 4",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 5",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 6",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "Opcion 7",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": " Descargar en formato ",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            },
+                            {
+                                "label": "RegresarÂ ",
+                                "receta": {
+                                    "desayuno": "",
+                                    "colacion_mat": "",
+                                    "comida": "",
+                                    "colacion_ves": "",
+                                    "cena": ""
+                                }
+                            }
+                        ],
+                        "recomendaciones": "Las carnes deben de ser magras (sin grasa visible) y cocinarse sin grasa, de preferencia a la plancha, cocidas o al horno. \n\n La cantidad de alimento (carne, arroz, frijoles, etc.) que se indica es peso cocido. \n\n Se recomienda consumir las frutas y las verduras crudas o poco cocidas y si es posible con cáscara. \n\nLas verduras crudas (lechuga, pepino, jitomate, rábano, espinaca, etc.) pueden consumirse sin restricción, o sea a libre demanda. También pueden consumirse entre comidas cuando se tenga hambre. \n\n Consumir por lo menos 2 litros de agua natural al día",
+                        "prohibiciones": "Bebidas: Alcohólicas, Refrescos y Jugos de frutas envasados \n\n Lácteos: Leche y Yogurt enteros, Quesos maduros (que gratinan), Dulce de leche \n\n Carnes: Cerdo, cortes grasosos, chicharrón y vísceras, Embutidos (chorizo, longaniza, queso de puerco, tocino, salchicha, etc.), Cordero, Borrego, Res: Hamburguesas compradas, cortes grasosos T – Bone, New York, etc. \n\n Cereales y Harinas: Pan dulce, Harinas, Postres, Cereal comercial endulzado, Galletas con relleno, Hot Cakes con grasa, Tamal \n\n Frutas: Frutas secas, cristalizadas y en almíbar \n\n Condimentos y aderezos: Mayonesa, Salsa Catsup, Mil islas – Aurora, etc. \n\n Dulces: Mermeladas, Dulces, Golosinas, Helados, Chocolate, Jarabes concentrados para preparara agua \n\n Postres: Pasteles, Pastelillos, Pay, Ate, Nieve \n\n Grasas: Manteca de cerdo, Mantequilla, Crema, Queso crema, Crema de Cacahuate, Coco rallado, Tocino"
+                    }
+                ]
+            }
+        ]

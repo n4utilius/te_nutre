@@ -1,0 +1,13 @@
+{
+	"name" : "Hello World",
+	"description" : "lo que sea",
+	"launch_path" : "/app.html", 
+	"icons" : {
+		"128" : "icon.png"
+	}, 
+	"developer" : {
+		"name" : "some name",
+		"url" : "http://loquesea.mx"
+	}, 
+	"default_locale":"en"
+}
