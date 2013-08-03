@@ -128,17 +128,83 @@
 				app.controllers = {};
 				app.model = {};
 				app.model.dietas = dietas;
+
+				function determina_factor_actividad(codigo){
+					if(codigo==1)
+						return 1.2;
+					else if(codigo==2)
+						return 1.375;
+					else if(codigo==3)
+						return 1.55;
+					else if(codigo==2)
+						return 1.725;
+					else if(codigo==3)
+						return 1.9;
+				}
 				
-				app.controllers.determina_calorias = function(peso, edad, sexo){
+				app.controllers.determina_calorias = function(peso, edad, sexo,altura,actividad){
+
+					var datos_dietas={};
+					var factor_de_actividad=determina_factor_actividad(actividad);
+
 					if (sexo = "Masculino"){
+						datos_dietas.genero="Masculino";
+						datos_dietas.calorias=(655 + (9.6*peso) + (1.8 * altura) - (4.7 * edad)) * factor_de_actividad;
 
 					}else{
-
+						datos_dietas.genero="Femenino";
+						datos_dietas.calorias=(66 + (13.7*peso) + (5 * altura) - (6.8 * edad)) * factor_de_actividad;
 					}
+
+					return datos_dietas;
 				}
 
 				app.controllers.determina_dieta = function(){
-										
+					var datos_dietas=app.controllers.determina_calorias;
+					var dieta_determinada;
+
+					if(datos_dietas.genero=="Masculino"){
+						
+						var dietas_genero=app.model.dietas[0];
+						var dietas_calorias=dietas_genero.calorias;
+						
+						if(datos_dietas.calorias<1200){
+							return dietas_calorias[0].opciones;
+						}else if(datos_dietas.calorias<1400){
+							return dietas_calorias[1].opciones;
+						}else if(datos_dietas.calorias<1500){
+							return dietas_calorias[2].opciones;
+						}else if(datos_dietas.calorias<1600){
+							return dietas_calorias[3].opciones;
+						}else if(datos_dietas.calorias<1700){
+							return dietas_calorias[4].opciones;
+						}else if(datos_dietas.calorias<1800){
+							return dietas_calorias[5].opciones;
+						}else if(datos_dietas.calorias<1900){
+							return dietas_calorias[6].opciones;
+						}else if(datos_dietas.calorias<2000){
+							
+						}
+
+					}
+					else if(datos_dietas.genero=="Femenino"){
+
+						var dietas_genero=app.model.dietas[1];
+						var dietas_calorias=dietas_genero.calorias;
+						
+						if(datos_dietas.calorias<1300){
+							return dietas_calorias[0].opciones;
+						}else if(datos_dietas.calorias<1500){
+							return dietas_calorias[1].opciones;
+						}else if(datos_dietas.calorias<1700){
+							return dietas_calorias[2].opciones;
+						}else if(datos_dietas.calorias<1900){
+							return dietas_calorias[3].opciones;
+						}else if(datos_dietas.calorias<2100){
+							return dietas_calorias[4].opciones;
+						}							
+					}
+
 				}
 			});
 		</script>
